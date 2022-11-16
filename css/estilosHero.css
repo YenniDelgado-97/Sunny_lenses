@@ -51,3 +51,15 @@ body {
     background-color: #fbfbfb;
 }
 
+/* ESTILOS SESIÓN HERO-IMAGE */
+
+.hero-image {
+	display: flex;
+	justify-content: space-around;
+	background-image: url(../imagenes/mujer-con-gafas.jpg);
+
+}
+
+.columna-informacion{
+	flex-direction: column;
+}
