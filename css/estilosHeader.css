@@ -15,6 +15,7 @@ body {
 
 header {
 	display: flex;
+	flex-direction: row;
 	min-height: 70px;
 	background-color:#fbc101;
 	justify-content: space-between;
@@ -51,3 +52,14 @@ nav a {
 
 }
 
+
+@media (max-width:767px){
+	nav{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	nav a{
+		margin-top: 10px;
+	}
+}
