@@ -18,7 +18,10 @@
 
 .contenedor-texto {
     margin-left: 350px;
-    align-items: flex-start;
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 120px;
+
 }
 
 .contenedor-texto h3 {
@@ -28,4 +31,18 @@
 .contenedor-texto p {
     font-family: sans-serif;
     font-size: small;
+}
+
+@media(max-width:767px){
+    .contenedor-elementos img {
+        width: 360px;
+        height: 360px;
+        margin-left: 210px;
+    }
+
+    .contenedor-texto{
+        margin-top: 60px;
+        margin-left: 40px;
+    }
+
 }

@@ -129,3 +129,24 @@
 	font-size: small;
 
 }
+
+@media(max-width:767px) {
+
+	.benefits h3 {
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-left: 1;
+	}
+
+	.titulos-benefits{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-right: 185px;
+		margin-left: 185px;
+	}
+
+	.container-benefits{
+		flex-direction: column;
+	}
+}

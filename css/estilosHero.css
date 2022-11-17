@@ -59,5 +59,11 @@
 	color:white;
 }
 
+@media(max-width:767px){
+	.columna-informacion{
+		margin-right: 50px;
+	}
 
+	
+}
 
