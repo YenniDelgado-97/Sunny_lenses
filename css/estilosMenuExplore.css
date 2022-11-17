@@ -9,11 +9,12 @@
     display: flex;
     flex-direction: column;
     background-color: #FBC000 ;
-    height: 450px;
-    width: 450px;
+    height: 350px;
+    width: 400px;
     align-items: center;
     justify-content:space-evenly;
     border-radius: 10px;
+    margin-right: 10px;
 }
 .contenedor-titulo{
     text-align: center;
