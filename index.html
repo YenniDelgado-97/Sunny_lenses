@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Candal" />
 
-    
+
     <link rel="stylesheet" href="./css/estilosHeader.css">
     <link rel="stylesheet" href="./css/estilosHero.css">
     <link rel="stylesheet" href="./css/estilosBenefits.css">
+    <link rel="stylesheet" href="./css/estilosSocialProof.css">
     <link rel="stylesheet" href="./css/estilosMenuExplore.css">
 
     <script src="https://kit.fontawesome.com/6964b48823.js" crossorigin="anonymous"></script>
 
     <title>Sunny Lenses</title>
 </head>
+
 <body>
 
     <!-- contenedor header -->
 
-    <header> 
+    <header>
         <div class="logo">
             <img src="./imagenes/sol1_logo.png" alt="logo en forma de sol de la pagina">
             <h1 class="nombre_pagina">Sunny Lenses</h1>
@@ -47,18 +50,18 @@
 
         <div class="hero-image">
             <div class="columna-informacion">
-            <h3 class="mensaje-custom">CUSTOM-TAILORED EYEWEAR</h3>
-            <h1 class="mensaje-informacion">GLASSES THAT LOOK <br> GOOD ON YOU,NOT <br> JUST ON THE SHELF</h1>
-            <nav>
-                <button href="" class="button-shop-men">SHOP MEN</button>
-                <button href="" class="button-shop-women">SHOP WOMEN</button>
-            </nav>
+                <h3 class="mensaje-custom">CUSTOM-TAILORED EYEWEAR</h3>
+                <h1 class="mensaje-informacion">GLASSES THAT LOOK <br> GOOD ON YOU,NOT <br> JUST ON THE SHELF</h1>
+                <nav>
+                    <button href="" class="button-shop-men">SHOP MEN</button>
+                    <button href="" class="button-shop-women">SHOP WOMEN</button>
+                </nav>
             </div>
         </div>
 
         <!-- fin de la seccion hero Images -->
 
-        
+
 
         <!-- seccion benefits -->
         <section class="benefits">
@@ -70,119 +73,120 @@
             <div class="container-benefits">
                 <div class="benefit1">
                     <img src="./imagenes/rostro-logo.png" alt="icono1">
-                    <h2 >Measure for you</h2>
-                    <p >Use our iOS app to scan <br> your face and capture over <br> 20.000 3D measurement</p>
+                    <h2>Measure for you</h2>
+                    <p>Use our iOS app to scan <br> your face and capture over <br> 20.000 3D measurement</p>
                 </div>
                 <div class="benefit2">
                     <img src="./imagenes/lapiz-logo.png" alt="icono1">
                     <h2 class="measured">Designed by you</h2>
-                    <p class="text">Select your style,choose your <br> color,fine-tune the shape,and <br> preview it with our virtual try-on</p>
+                    <p class="text">Select your style,choose your <br> color,fine-tune the shape,and <br> preview it
+                        with our virtual try-on</p>
                 </div>
                 <div class="benefit3">
                     <img src="./imagenes/gafas-logo.png" alt="icono1">
                     <h2 class="measured">Made from scratch</h2>
-                    <p class="text">Each pair is crafted for one <br> person at a time from the highest <br> quality acetate and metal </p>
+                    <p class="text">Each pair is crafted for one <br> person at a time from the highest <br> quality
+                        acetate and metal </p>
                 </div>
                 <div class="benefit4">
                     <img src="./imagenes/estrella-logo.png" alt="icono1">
                     <h2 class="measured">Perfect, guaranteed</h2>
-                    <p class="text">we guarantee your sunny <br> lenses will fit perfectly  <br> look great and feel amazing </p>
+                    <p class="text">we guarantee your sunny <br> lenses will fit perfectly <br> look great and feel
+                        amazing </p>
                 </div>
             </div>
 
-        </div>
+            </div>
 
 
-        <!-- fin de la seccion benefits -->
+            <!-- fin de la seccion benefits -->
 
-        <!-- seccion feature -->
+            <!-- seccion feature -->
 
 
 
-        <!-- fin de la seccion feature -->
+            <!-- fin de la seccion feature -->
 
-        <!-- seccion social proof -->
+            <!-- seccion social proof -->
 
             <div class="slide-contenedor">
 
-                <div class="miSlider">
-                    <img src="./imagenes/mujerGafas.jpg" alt="imagen mujer con gafas">
+                <div class="miSlider fade">
+                    <img src="./imagenes/mujer-gafas-2.jpg" alt="imagen mujer con gafas">
 
                 </div>
-                <div class="miSlider">
-                    <img src="./imagenes/mujerGafas.jpg" alt="imagen mujer con gafas">
+                <div class="miSlider fade">
+                    <img src="./imagenes/mujer-con-gafas.jpg" alt="imagen mujer con gafas">
                 </div>
-                <div class="miSlider">
-                    <img src="./imagenes/mujerGafas.jpg" alt="imagen mujer con gafas">
+                <div class="miSlider fade">
+                    <img src="./imagenes/rostro-logo.png" alt="imagen mujer con gafas">
+                </div>
+                <div class="direcciones">
+                    <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+                    <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+
+                </div>
+
+                <div class="barras">
+                    <span class="barra active" onclick="posicionSlide(1)"></span>
+                    <span class="barra" onclick="posicionSlide(2)"></span>
+                    <span class="barra" onclick="posicionSlide(3)"></span>
+
                 </div>
             </div>
-            <div class="direcciones">
-                <a href="" class="atras" onclick="avanzaSlider(-1)">&#10094;</a>
-                <a href="" class="adelante" onclick="avanzaSlider(1)">&#10095;</a>
-        
-            </div>
 
-            <div class="barras">
-                <span class="barra active" onclick="posicionSlide(1)"></span>
-                <span class="barra" onclick="posicionSlide(2)"></span>
-                <span class="barra" onclick="posicionSlide(3)"></span>
+            <!-- fin de la seccion social proof -->
 
-            </div>
+            <!-- seccion menu explore -->
 
-        <!-- fin de la seccion social proof -->
+            <section class="menu-explore">
+                <div class="tarjeta">
+                    <div class="contenedor-titulo">
+                        <h4 class="titulo-tarjeta ">FIND A <br> LOCATION</h4>
+                    </div>
+                    <img class="imagen-central" src="./imagenes/logo_flecha.png" alt="">
+                    <div class="contenedor-vinculo">
+                        <h4 class="vinculo-tarjeta">Learn more</h4>
+                        <img class="flecha-logo" src="./imagenes/flecha_siguiente.png" alt="">
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <div class="contenedor-titulo">
+                        <h4 class="titulo-tarjeta ">BROWSE OUR <br>FRAME STYLES</h4>
+                    </div>
+                    <img class="imagen-central" src="./imagenes/logo_gafas.png" alt="">
+                    <div class="contenedor-vinculo">
+                        <h4 class="vinculo-tarjeta">Explore frames</h4>
+                        <img class="flecha-logo" src="./imagenes/flecha_siguiente.png" alt="">
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <div class="contenedor-titulo">
+                        <h4 class="titulo-tarjeta ">EXPLORE OUR <br>LENS OPTIONS</h4>
+                    </div>
+                    <img class="imagen-central" src="./imagenes/logo_lupa.png" alt="">
+                    <div class="contenedor-vinculo">
+                        <h4 class="vinculo-tarjeta">Explore lenses</h4>
+                        <img class="flecha-logo" src="./imagenes/flecha_siguiente.png" alt="">
+                    </div>
+                </div>
+            </section>
 
-        <!-- seccion menu explore -->
-
-        <section class="menu-explore">
-            <div class="tarjeta">
-                <div class="contenedor-titulo">
-                    <h4 class="titulo-tarjeta ">FIND A <br> LOCATION</h4>
-                </div>
-                <img class="imagen-central" src="./imagenes/logo_flecha.png" alt="">
-                <div class="contenedor-vinculo">
-                    <h4 class="vinculo-tarjeta">Learn more</h4>
-                    <img class="flecha-logo" src="./imagenes/flecha_siguiente.png" alt="">
-                </div>
-            </div>
-            <div class="tarjeta">
-                <div class="contenedor-titulo">
-                    <h4 class="titulo-tarjeta ">BROWSE OUR <br>FRAME STYLES</h4>
-                </div>
-                <img class="imagen-central" src="./imagenes/logo_gafas.png" alt="">
-                <div class="contenedor-vinculo">
-                    <h4 class="vinculo-tarjeta">Explore frames</h4>
-                    <img class="flecha-logo" src="./imagenes/flecha_siguiente.png" alt="">
-                </div>
-            </div>
-            <div class="tarjeta">
-                <div class="contenedor-titulo">
-                    <h4 class="titulo-tarjeta ">EXPLORE OUR <br>LENS OPTIONS</h4>
-                </div>
-                <img class="imagen-central" src="./imagenes/logo_lupa.png" alt="">
-                <div class="contenedor-vinculo">
-                    <h4 class="vinculo-tarjeta">Explore lenses</h4>
-                    <img class="flecha-logo" src="./imagenes/flecha_siguiente.png" alt="">
-                </div>
-            </div>
-        </section>
-
-        <!-- fin de la seccion menu explore -->
+            <!-- fin de la seccion menu explore -->
 
     </main>
 
     <!-- fin del contenedor main -->
 
-<!-- contenedor footer -->
+    <!-- contenedor footer -->
     <footer>
 
 
     </footer>
-<!-- fin del contenedor footer -->
+    <!-- fin del contenedor footer -->
 
 
-<script src="./script.js"></script>
+    <script src="./script.js"></script>
 </body>
+
 </html>
-
-
-
